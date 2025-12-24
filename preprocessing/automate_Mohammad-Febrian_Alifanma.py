@@ -4,7 +4,7 @@ import os
 
 # Tentukan path file (agar aman saat dijalankan di GitHub Actions)
 # Kita asumsikan script dijalankan dari root repository
-INPUT_FILE = "riceClassification.csv"
+INPUT_FILE = "riceClassification_raw.csv"
 OUTPUT_FILE = "riceClassification_preprocessing.csv"
 
 def load_data(path):
